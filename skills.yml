@@ -1,0 +1,51 @@
+Build Systems:
+  - CMake
+  - Gradle
+  - IWYU (Include What You Use)
+  - vcpkg
+Clouds:
+  - Amazon Web Services
+  - Google Cloud Platform
+  - Private Data Centers
+Containers:
+  - Docker
+  - Envoy
+  - Harbor
+  - Helm
+  - Kubernetes
+  - k3s
+  - Talos Linux
+  - Custom Resource Definitions
+Data:
+  - Kafka
+  - MQTT
+  - Protobufs
+  - SQL
+  - NoSQL
+Languages:
+  - C/C++
+  - Go
+  - Java
+  - Python
+  - Rust
+  - Scala
+Methodologies:
+  - Agile
+  - CI/CD
+  - Data-Driven Design
+  - Test-Driven Development
+  - 12-Factor App Design
+Observability:
+  - AppDynamics
+  - Grafana
+  - Kibana (ELK Stack)
+  - Prometheus
+Quality & CI/CD:
+  - Conventional Commits
+  - GitHub Actions
+  - GitLab CI
+  - Qodana
+  - SonarQube
+Security:
+  - Vault
+  - Keycloak
