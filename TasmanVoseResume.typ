@@ -23,6 +23,7 @@
   size: 10pt,
   spacing: 120%,
   fill: tx,
+  fallback: false,
 )
 #set par(
   justify: true,
