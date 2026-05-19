@@ -8,10 +8,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Setup Fontist
+        uses: fontist/setup-fontist@v2
+      - name: Install Fonts
+        run: |
+          fontist manifest-install fonts.yml
+          fontist fontconfig update
+      - name: Verify Fonts
+        run: |
+          fontist status "Alegreya Sans"
+          fontist status "Inter"
       - name: Typst
         uses: lvignoli/typst-action@main
-        env:
-          TYPST_FONT_PATHS: ./fonts
         with:
           source_file: |
             TasmanVoseResume.typ
