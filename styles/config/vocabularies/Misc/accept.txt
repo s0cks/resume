@@ -46,3 +46,4 @@ Grafana
 (?i)https
 (?i)http
 repo
+(?i)Typst
