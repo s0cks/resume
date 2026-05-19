@@ -83,7 +83,7 @@
 
 #skills-matrix(
   title: [== Skills],
-  yaml("skills.yml"),
+  yaml("skills.yaml"),
 )
 
 #project-list(
@@ -107,17 +107,17 @@
 
 #cert-list(
   title: [== Certifications],
-  yaml("certifications.yml"),
+  yaml("certifications.yaml"),
 )
 
 #award-list(
   title: [== Awards],
-  yaml("awards.yml"),
+  yaml("awards.yaml"),
 )
 
 #education-list(
   title: [== Education],
-  yaml("./education.yml"),
+  yaml("./education.yaml"),
 )
 
 #section(
