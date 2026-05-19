@@ -644,7 +644,7 @@
       .map(child => {
         child.body
       })
-      .join(sym.space + sym.bullet + sym.space)
+      .join([ --- ])
   }
   let info = list(location, phone, email)
   set text(

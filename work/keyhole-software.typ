@@ -15,6 +15,8 @@
   ),
   "Full Stack Engineer",
 )[
-  - Led modernization of a legacy application into a mobile-first SPA for Honeywell devices (Android) using *Angular*, *Ionic* and *Spring Boot*, delivering 3 sprints ahead of schedule. \
-  - Guided development on a legacy *AngularJS* physical content management system backed by *Spring Boot* and *MySQL*, improving maintainability and feature delivery by partnering with stakeholders to define and scope engineering work into actionable stories, championing test-driven development, and mentoring team members.
+  - Led modernization of legacy applications into mobile first architectures powered by *Honeywell* (*Android*) devices running *Angular* SPAs with *Ionic*, and *Spring Boot* Microservices,
+    orchestrated by *Kubernetes* serving *Mainframe* data, delivering 3 sprints ahead of schedule.
+  - Guided development on a legacy systems powered by *AngularJS*, *Spring Boot* and *MySQL*
+    improving maintainability and feature velocity by crafting actionable stories, championing test-driven development, and mentoring team members.
 ]

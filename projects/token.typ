@@ -10,6 +10,6 @@
     "C++",
   ),
 )[
-  Received \$500k in grants while maintaining a lean 3-person team, building a cryptographically secure real time distributed transaction ledger designed for event ticketing.
-  Records large volumes of transactions while maintaining consistency among networked nodes by leveraging *libuv*, *Protobufs* and a custom variant of the *RAFT* algorithm.\
+  Received \$500k in grants engineering a cryptographically secure real-time distributed transaction ledger
+  using *C++*, *libuv*, *Protobufs* and a custom *RAFT algorithm* implementation.
 ]

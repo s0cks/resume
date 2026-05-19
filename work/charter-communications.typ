@@ -15,6 +15,9 @@
   ),
   "Software Engineer II",
 )[
-  - Collaborated with DevOps engineers, Developers and QA to refine deployment manifests improving release workflow, integrate *Jaeger* into their *Spring Boot* service to improve observability, and optimize *Elasticsearch* cluster architecture for improved query performance and cost-effectiveness.
-  - Designed an ETL pipeline for *Elasticsearch* with a reusable architecture using *Logstash*, *Java* and *Kafka* improving data re-indexing time from days to hours.
+  - Collaborated with DevOps, Developers and QA to refine deployment manifests improving release workflow,
+    integrate *Jaeger* into their *Spring Boot* service to improve observability,
+    and optimize *Elasticsearch* cluster topology for improved query performance and cost-effectiveness.
+  - Architected reusable high-throughput ETL data pipelines utilizing *Logstash*, *Kafka* and *Java*
+    reducing re-indexing windows from days to hours.
 ]

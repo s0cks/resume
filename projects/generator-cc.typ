@@ -9,6 +9,6 @@
     "Typescript",
   ),
 )[
-  A *Yeoman* generator in *Typescript* for bootstrapping *C/C++* projects with a standardized cross-platform architecture
+  A *Yeoman* generator in *Typescript* for bootstrapping *C/C++* projects using *zx* to create a standardized cross-platform architecture
   utilizing modern technologies and tools such as *vcpkg*, *CMake*, *IWYU* and *clang*
 ]

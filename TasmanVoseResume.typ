@@ -15,6 +15,7 @@
 #set page(
   paper: "us-letter",
   margin: (x: 0.75in, y: 0.75in),
+  numbering: "1",
   fill: paper,
 )
 #set text(
@@ -81,16 +82,8 @@
 
 #skills-matrix(
   title: [== Skills],
-  yaml("skills.yaml"),
+  yaml("skills.yml"),
 )
-
-#work-list(
-  title: [== Experience],
-)[
-  #include "work/keyhole-software.typ"
-  #include "work/charter-communications.typ"
-  #include "work/great-west-financial.typ"
-]
 
 #project-list(
   title: [== Projects],
@@ -100,22 +93,30 @@
   #include "projects/gel.typ"
   #include "projects/prette.typ"
   #include "projects/generator-cc.typ"
-  #include "projects/cmake-release.typ"
+  #include "projects/resume.typ"
+]
+
+#work-list(
+  title: [== Experience],
+)[
+  #include "work/keyhole-software.typ"
+  #include "work/charter-communications.typ"
+  #include "work/great-west-financial.typ"
 ]
 
 #cert-list(
   title: [== Certifications],
-  yaml("certifications.yaml"),
+  yaml("certifications.yml"),
 )
 
 #award-list(
   title: [== Awards],
-  yaml("awards.yaml"),
+  yaml("awards.yml"),
 )
 
 #education-list(
   title: [== Education],
-  yaml("./education.yaml"),
+  yaml("./education.yml"),
 )
 
 #section(

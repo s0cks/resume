@@ -13,7 +13,7 @@
     month: 2,
     year: 2021,
   ),
-  "Cloud Infrastructure Analyst",
+  "Cloud Infrastructure Engineer",
 )[
   - Played a key role in migrating to *AWS*, delivering executive-facing cost analysis and observability tools using *Python*, *Elasticsearch* and *Kibana* reducing AWS costs by thousands of dollars annually.
   - Partnered with executive leadership, architects and cloud/network/security teams to codify organization-wide logging

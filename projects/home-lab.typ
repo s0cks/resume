@@ -7,7 +7,6 @@
   url: github-user-link("s0cks"),
   name: "home-lab",
 )[
-  Built a server out of an old gaming computer that runs *TrueNAS*, and a *Kubernetes* cluster
-  that runs hundreds of containers a day powering local *CI/CD*, Network Security and *DNS* infrastructure at home,
-  saving \$100s in cloud costs.
+  Built a private cloud environment out of an old gaming computer, mac mini, some RPi 3s, *Proxmox*, *TrueNAS*, and a *Talos Linux* and *k3s*
+  running hundreds of containers a day powering local *CI/CD* and network services at home, saving \$100s in cloud costs.
 ]
