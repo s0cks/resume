@@ -1,9 +1,9 @@
 # Resume for @s0cks
 
-This repository contains all the markup and resources required to build my (@s0cks) resume.
+This repository contains all the markup and resources required to build my ([@s0cks](https://github.com/s0cks)) resume.
 
-The generated documents are ATS friendly while maintaining a modern and visually appealing look using the
-[Flexoki](https://stephango.com/flexoki) color palette from @kepano
+The generated documents, written in [Typst](https://typst.app/) are ATS friendly while maintaining a modern and visually appealing look using the
+[Flexoki](https://stephango.com/flexoki) color palette from [@kepano](https://github.com/kepano).
 
 ## Examples
 
@@ -38,4 +38,4 @@ typst compile TasmanVoseResume.typ # Produces TasmanVoseResume.pdf
 - [basic-resume](https://typst.app/universe/package/basic-resume) -- A Typst Universe package for a simple, standard resume, designed to work well with ATS
 - [ats-friendly-resume](https://typst.app/universe/package/ats-friendly-resume) -- A Typst Universe package for a simple ats friendly resume built for developers
 - [vantage-cv](https://typst.app/universe/package/vantage-cv) -- A Typst Universe package for an ATS friendly simple Typst CV template
-- [Flexoki](https://stephango.com/flexoki) -- An inky color scheme for prose and code by @kepano
+- [Flexoki](https://stephango.com/flexoki) -- An inky color scheme for prose and code by [@kepano](https://github.com/kepano)
