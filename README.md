@@ -7,10 +7,7 @@ The generated documents are ATS friendly while maintaining a modern and visually
 
 ## Examples
 
-<p float="left" align="middle">
-  <img src="./examples/1.png" align="top" width="50%" />
-  <img src="./examples/2.png" align="top" width="50%" />
-</p>
+![Page 1](./examples/1.png "Page 1" =50%x) ![Page 2](./examples/2.png "Page 2" =50%x)
 
 ## Building
 
