@@ -1,0 +1,8 @@
+version: "3"
+tasks:
+  build:
+    cmds:
+      - typst compile TasmanVoseResume.typ TasmanVoseResume.pdf
+  default:
+    cmds:
+      - task: build
