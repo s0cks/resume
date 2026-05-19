@@ -12,7 +12,8 @@ jobs:
         uses: fontist/setup-fontist@v2
       - name: Install Fonts
         run: |
-          fontist manifest-install fonts.yml
+          fontist install "Alegreya Sans"
+          fontist install "Inter"
           fontist fontconfig update
       - name: Verify Fonts
         run: |
