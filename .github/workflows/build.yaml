@@ -13,13 +13,6 @@ jobs:
         with:
           source_file: |
             TasmanVoseResume.typ
-      - name: Upload Artifacts
-        uses: actions/upload-artifacts@v7
-        with:
-          name: Documents
-          path: |
-            *.pdf
-          archive: false
       - name: Get current date
         id: date
         run: echo "DATE=$(date +%Y-%m-%d-%H-%M)" >> $GITHUB_ENV
