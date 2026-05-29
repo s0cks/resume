@@ -1,4 +1,4 @@
-#import "../util.typ": github-user-link, project
+#import "../../util.typ": github-user-link, project
 
 #project(
   start-date: "2023",

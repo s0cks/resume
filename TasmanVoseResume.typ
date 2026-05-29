@@ -49,7 +49,7 @@
   }
 }
 
-#let contact = json("contact.json")
+#let contact = json("data/contact.json")
 
 #show link: it => {
   set text(
@@ -83,41 +83,41 @@
 
 #skills-matrix(
   title: [== Skills],
-  yaml("skills.yaml"),
+  yaml("data/skills.yaml"),
 )
 
 #project-list(
   title: [== Projects],
 )[
-  #include "projects/home-lab.typ"
-  #include "projects/token.typ"
-  #include "projects/gel.typ"
-  #include "projects/prette.typ"
-  #include "projects/generator-cc.typ"
-  #include "projects/resume.typ"
+  #include "data/projects/home-lab.typ"
+  #include "data/projects/token.typ"
+  #include "data/projects/gel.typ"
+  #include "data/projects/prette.typ"
+  #include "data/projects/generator-cc.typ"
+  #include "data/projects/resume.typ"
 ]
 
 #work-list(
   title: [== Experience],
 )[
-  #include "work/keyhole-software.typ"
-  #include "work/charter-communications.typ"
-  #include "work/great-west-financial.typ"
+  #include "data/work/keyhole-software.typ"
+  #include "data/work/charter-communications.typ"
+  #include "data/work/great-west-financial.typ"
 ]
 
 #cert-list(
   title: [== Certifications],
-  yaml("certifications.yaml"),
+  yaml("data/certifications.yaml"),
 )
 
 #award-list(
   title: [== Awards],
-  yaml("awards.yaml"),
+  yaml("data/awards.yaml"),
 )
 
 #education-list(
   title: [== Education],
-  yaml("./education.yaml"),
+  yaml("./data/education.yaml"),
 )
 
 #section(

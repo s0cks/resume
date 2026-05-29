@@ -3,6 +3,9 @@ tasks:
   build:
     cmds:
       - typst compile TasmanVoseResume.typ TasmanVoseResume.pdf
+  clean:
+    cmds:
+      - rm *.pdf
   default:
     cmds:
       - task: build

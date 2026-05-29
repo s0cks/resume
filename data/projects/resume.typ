@@ -1,4 +1,4 @@
-#import "../util.typ": github-repo-link, project
+#import "../../util.typ": github-repo-link, project
 
 #project(
   role: "Creator",

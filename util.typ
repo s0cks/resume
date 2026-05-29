@@ -1,4 +1,3 @@
-#import "@preview/basic-resume:0.2.9": dates-helper
 #import "./style.typ": *
 
 #let metadata(

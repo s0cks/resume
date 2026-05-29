@@ -1,4 +1,4 @@
-#import "../util.typ": work
+#import "../../util.typ": work
 
 #work(
   location: "Chicago, IL",
