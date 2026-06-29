@@ -1,36 +1,47 @@
-name: Build Resume
+name: Build Documents
 on:
   push:
-    tags:
-      - "v*"
-      - "release/v*"
+    branches:
+      - main
 permissions:
   contents: write
+  pull-requests: write
 jobs:
-  build_typst_documents:
+  release:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v3
-      - uses: fontist/setup-fontist@v2
-      - uses: typst-community/setup-typst@v5
+      - id: release
+        uses: google-github-actions/release-please-action@v4
+        with:
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
+      - name: Checkout Code
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@v3
+      - name: Setup Typst
+        if: ${{ steps.release.outputs.release_created }}
+        uses: typst-community/setup-typst@v5
+      - name: Setup Task
+        if: ${{ steps.release.outputs.release_created }}
+        uses: go-task/setup-task@v2
+        with:
+          version: 3.x
       - name: Install Fonts
+        if: ${{ steps.release.outputs.release_created }}
         run: |
-          fontist install "Alegreya Sans"
-          fontist install "Inter"
-          fontist fontconfig update
-      - name: Verify Fonts
+          sudo apt-get update
+          sudo apt-get install -y \
+            fonts-ebgaramond \
+            fonts-inter \
+            fonts-alegreya-sans \
+            fonts-bebas-neue
+      - name: Compile Documents
+        if: ${{ steps.release.outputs.release_created }}
         run: |
-          fontist status "Alegreya Sans"
-          fontist status "Inter"
-      - name: Compile
-        run: |
-          typst compile TasmanVoseResume.typ TasmanVoseResume.pdf
-      - name: Get current date
-        run: |
-          echo "DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
+          task build VERSION="${{ steps.release.outputs.tag_name }}"
       - name: Release
+        if: ${{ steps.release.outputs.release_created }}
         uses: softprops/action-gh-release@v1
         with:
-          name: "${{ github.ref_name }} - ${{ env.DATE }}"
+          name: "${{ steps.release.outputs.tag_name }}"
           files: "*.pdf"
