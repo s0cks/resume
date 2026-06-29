@@ -1,51 +1,319 @@
-Build Systems:
-  - CMake
-  - Gradle
-  - IWYU (Include What You Use)
-  - vcpkg
-Clouds:
-  - Amazon Web Services
-  - Google Cloud Platform
-  - Private Data Centers
-Containers:
-  - Docker
-  - Envoy
-  - Harbor
-  - Helm
-  - Kubernetes
-  - k3s
-  - Talos Linux
-  - Custom Resource Definitions
-Data:
-  - Kafka
-  - MQTT
-  - Protobufs
-  - SQL
-  - NoSQL
-Languages:
-  - C/C++
-  - Go
-  - Java
-  - Python
-  - Rust
-  - Scala
-Methodologies:
-  - Agile
-  - CI/CD
-  - Data-Driven Design
-  - Test-Driven Development
-  - 12-Factor App Design
-Observability:
-  - AppDynamics
-  - Grafana
-  - Kibana (ELK Stack)
-  - Prometheus
-Quality & CI/CD:
-  - Conventional Commits
-  - GitHub Actions
-  - GitLab CI
-  - Qodana
-  - SonarQube
-Security:
-  - Vault
-  - Keycloak
+- category: Languages
+  name: C/C++
+  scores:
+    Full Stack Engineer: 1
+    Platform Engineer: 4
+    Systems Engineer: 5
+- category: Languages
+  name: Go
+  scores:
+    Full Stack Engineer: 2
+    Platform Engineer: 5
+    Systems Engineer: 4
+- category: Languages
+  name: Java
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 4
+    Systems Engineer: 1
+- category: Backend
+  name: Spring Boot
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 2
+    Systems Engineer: 1
+- category: Backend
+  name: Microservices
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 3
+    Systems Engineer: 1
+- abbr: PWA
+  category: Frontend
+  name: Progressive Web Apps
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 3
+    Systems Engineer: 1
+- category: Languages
+  name: Python
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 4
+    Systems Engineer: 2
+- category: Languages
+  name: Typescript
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 1
+    Systems Engineer: 0
+- category: Languages
+  name: Javascript
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 1
+    Systems Engineer: 0
+- category: Languages
+  name: Rust
+  scores:
+    Full Stack Engineer: 1
+    Platform Engineer: 4
+    Systems Engineer: 5
+- category: Languages
+  name: Scala
+  scores:
+    Full Stack Engineer: 3
+    Platform Engineer: 4
+    Systems Engineer: 1
+- abbr: AWS
+  category: Cloud & Infrastructure
+  name: Amazon Web Services
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 5
+    Systems Engineer: 2
+- abbr: GCP
+  category: Cloud & Infrastructure
+  name: Google Cloud Platform
+  scores:
+    Full Stack Engineer: 3
+    Platform Engineer: 5
+    Systems Engineer: 1
+- category: Cloud & Infrastructure
+  name: Private Cloud (On-Prem)
+  scores:
+    Full Stack Engineer: 0
+    Platform Engineer: 5
+    Systems Engineer: 5
+- category: Frontend
+  name: Vue
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 1
+    Systems Engineer: 0
+- category: Frontend
+  name: Angular
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 1
+    Systems Engineer: 0
+- category: Frontend
+  name: AngularJS
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 1
+    Systems Engineer: 0
+- category: Cloud & Infrastructure
+  name: Envoy
+  scores:
+    Full Stack Engineer: 1
+    Platform Engineer: 5
+    Systems Engineer: 3
+- category: Cloud & Infrastructure
+  name: Talos Linux
+  scores:
+    Full Stack Engineer: 0
+    Platform Engineer: 4
+    Systems Engineer: 5
+- category: Containers & Orchestration
+  name: Docker
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 5
+    Systems Engineer: 2
+- category: Containers & Orchestration
+  name: Kubernetes
+  scores:
+    Full Stack Engineer: 3
+    Platform Engineer: 5
+    Systems Engineer: 4
+- category: Containers & Orchestration
+  name: Helm
+  scores:
+    Full Stack Engineer: 2
+    Platform Engineer: 5
+    Systems Engineer: 3
+- category: Containers & Orchestration
+  name: k3s
+  scores:
+    Full Stack Engineer: 0
+    Platform Engineer: 4
+    Systems Engineer: 5
+- category: Containers & Orchestration
+  name: Harbor
+  scores:
+    Full Stack Engineer: 0
+    Platform Engineer: 4
+    Systems Engineer: 2
+- abbr: CRD
+  category: Containers & Orchestration
+  name: Custom Resource Definitions
+  scores:
+    Full Stack Engineer: 0
+    Platform Engineer: 5
+    Systems Engineer: 3
+- category: Data
+  name: Kafka
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 4
+    Systems Engineer: 2
+- category: Data
+  name: MQTT
+  scores:
+    Full Stack Engineer: 0
+    Platform Engineer: 2
+    Systems Engineer: 5
+- category: Data
+  name: Protobufs
+  scores:
+    Full Stack Engineer: 2
+    Platform Engineer: 4
+    Systems Engineer: 4
+- category: Data
+  name: Elasticsearch
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 3
+    Systems Engineer: 0
+- category: Data
+  name: Logstash
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 3
+    Systems Engineer: 0
+- category: Data
+  name: MySQL
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 1
+    Systems Engineer: 0
+- category: Data
+  name: Postgres
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 2
+    Systems Engineer: 0
+- category: Data
+  name: GraphQL
+  scores:
+    Full Stack Engineer: 5
+    Platform Engineer: 1
+    Systems Engineer: 0
+- category: Tools
+  name: CMake
+  scores:
+    Full Stack Engineer: 1
+    Platform Engineer: 4
+    Systems Engineer: 5
+- category: Tools
+  name: vcpkg
+  scores:
+    Full Stack Engineer: 0
+    Platform Engineer: 3
+    Systems Engineer: 4
+- abbr: IWYU
+  category: Tools
+  name: include-what-you-use
+  scores:
+    Full Stack Engineer: 0
+    Platform Engineer: 2
+    Systems Engineer: 4
+- category: Tools
+  name: Gradle
+  scores:
+    Full Stack Engineer: 3
+    Platform Engineer: 2
+    Systems Engineer: 0
+- category: CI/CD
+  name: GitHub Actions
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 5
+    Systems Engineer: 2
+- category: CI/CD
+  name: GitLab CI
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 5
+    Systems Engineer: 2
+- category: Tools
+  name: SonarQube
+  scores:
+    Full Stack Engineer: 3
+    Platform Engineer: 4
+    Systems Engineer: 1
+- category: Tools
+  name: Qodana
+  scores:
+    Full Stack Engineer: 2
+    Platform Engineer: 4
+    Systems Engineer: 1
+- category: Tools
+  name: Agile
+  scores:
+    Full Stack Engineer: 2
+    Platform Engineer: 1
+    Systems Engineer: 0
+- abbr: DDD
+  category: Practices
+  name: Data-Driven Design
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 2
+    Systems Engineer: 1
+- category: Practices
+  name: 12-Factor Apps
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 3
+    Systems Engineer: 0
+- abbr: TDD
+  category: Practices
+  name: Test-Driven Development
+  scores:
+    Full Stack Engineer: 4
+    Platform Engineer: 2
+    Systems Engineer: 1
+- category: Tools
+  name: Conventional Commits
+  scores:
+    Full Stack Engineer: 2
+    Platform Engineer: 2
+    Systems Engineer: 1
+- category: Observability & Security
+  name: Grafana
+  scores:
+    Full Stack Engineer: 2
+    Platform Engineer: 5
+    Systems Engineer: 3
+- category: Observability & Security
+  name: Kibana
+  scores:
+    Full Stack Engineer: 2
+    Platform Engineer: 4
+    Systems Engineer: 2
+- category: Observability & Security
+  name: Prometheus
+  scores:
+    Full Stack Engineer: 1
+    Platform Engineer: 5
+    Systems Engineer: 3
+- category: Observability & Security
+  name: AppDynamics
+  scores:
+    Full Stack Engineer: 3
+    Platform Engineer: 4
+    Systems Engineer: 1
+- category: Observability & Security
+  name: Keycloak
+  scores:
+    Full Stack Engineer: 2
+    Platform Engineer: 4
+    Systems Engineer: 1
+- category: Observability & Security
+  name: Vault
+  scores:
+    Full Stack Engineer: 2
+    Platform Engineer: 5
+    Systems Engineer: 2

@@ -4,3 +4,7 @@ Biggest Impact:
   description: Overhauled the website of Heartland Animal Shelter (Chicago, IL) in 24 hours.
   event: Overnight Website Challenge
   institution: The Nerdery Foundation
+  weights:
+    Full Stack Engineer: 3
+    Platform Engineer: 1
+    Systems Engineer: 0

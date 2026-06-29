@@ -1,4 +1,45 @@
-Cisco AppDynamics Associate Performance Analyst, Cisco AppDynamics Professional Implementer: {}
-Data Analysis with Kibana: {}
-Elasticsearch Engineer, Elasticsearch Observability Engineer & Elasticsearch Security for SIEM: {}
-SAFe Certification: {}
+- name: Cisco AppDynamics Associate Performance Analyst
+  weights:
+    Full Stack Engineer: 1
+    Platform Engineer: 3
+    Systems Engineer: 1
+- name: Cisco AppDynamics Professional Implementer
+  weights:
+    Full Stack Engineer: 1
+    Platform Engineer: 3
+    Systems Engineer: 1
+- name: Data Analysis with Kibana
+  weights:
+    Full Stack Engineer: 2
+    Platform Engineer: 3
+    Systems Engineer: 1
+- name: Elasticsearch Engineer
+  weights:
+    Full Stack Engineer: 2
+    Platform Engineer: 3
+    Systems Engineer: 3
+- name: Elasticsearch Observability Engineer
+  weights:
+    Full Stack Engineer: 1
+    Platform Engineer: 3
+    Systems Engineer: 2
+- name: Elasticsearch Security for SIEM
+  weights:
+    Full Stack Engineer: 1
+    Platform Engineer: 3
+    Systems Engineer: 2
+- name: SAFe Agile Software Engineering
+  weights:
+    Full Stack Engineer: 2
+    Platform Engineer: 2
+    Systems Engineer: 1
+- name: SAFe Agilist
+  weights:
+    Full Stack Engineer: 2
+    Platform Engineer: 1
+    Systems Engineer: 0
+- name: SAFe DevOps
+  weights:
+    Full Stack Engineer: 2
+    Platform Engineer: 3
+    Systems Engineer: 1

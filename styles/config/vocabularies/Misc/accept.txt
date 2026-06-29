@@ -1,5 +1,8 @@
 (?i)Vose
 (?i)Nerdery
+(?i)UI[s]
+tx
+cy
 Traefik
 Javascript
 Tailos
@@ -47,3 +50,6 @@ Grafana
 (?i)http
 repo
 (?i)Typst
+loc
+Hyprland
+(?i)Lua

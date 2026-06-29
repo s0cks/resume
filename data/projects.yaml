@@ -1,0 +1,382 @@
+- name: kura
+  scores:
+    Full Stack Engineer: 3
+    Platform Enginer: 1
+    Systems Engineer: 3
+  skills:
+    - C++
+    - CMake
+    - LLVM
+  start-date:
+    month: 1
+    year: 2026
+  url: https://github.com/s0cks/kura
+# ──────────────────────────────────────────────────────────────────────
+- name: moonbar
+  scores:
+    Full Stack Engineer: 3
+    Platform Enginer: 2
+    Systems Engineer: 2
+  skills:
+    - C
+    - CMake
+    - Lua
+    - Gtk4
+    - Wayland
+  start-date:
+    month: 1
+    year: 2026
+  url: https://github.com/s0cks/moonbar
+# ──────────────────────────────────────────────────────────────────────
+- name: file-indexer
+  scores:
+    Full Stack Engineer: 5
+    Platform Enginer: 4
+    Systems Engineer: 2
+  skills:
+    - Java
+    - Scala
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/file-indexer
+# ──────────────────────────────────────────────────────────────────────
+- name: docker-chromium-screenshot
+  scores:
+    Full Stack Engineer: 4
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Docker
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/docker-chromium-screenshot
+# ──────────────────────────────────────────────────────────────────────
+- name: expressjs-svc-tpl
+  scores:
+    Full Stack Engineer: 5
+    Platform Enginer: 3
+    Systems Engineer: 0
+  skills:
+    - Javascript
+    - Express
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/expressjs-svc-tpl
+# ──────────────────────────────────────────────────────────────────────
+- name: prette
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 1
+    Systems Engineer: 3
+  skills:
+    - Vulkan
+    - CMake
+    - OpenGL
+    - Jsonnet
+    - YAML
+    - GLSL
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/prette
+# ──────────────────────────────────────────────────────────────────────
+- name: gel
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 1
+    Systems Engineer: 3
+  skills:
+    - C++
+    - CMake
+    - C
+    - Lisp
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/gel
+# ──────────────────────────────────────────────────────────────────────
+- name: poseidon
+  scores:
+    Full Stack Engineer: 0
+    Platform Enginer: 1
+    Systems Engineer: 3
+  skills:
+    - CMake
+    - C
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/poseidon
+# ──────────────────────────────────────────────────────────────────────
+- name: generator-cc
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 2
+    Systems Engineer: 2
+  skills:
+    - Yeoman
+    - Typescript
+    - CMake
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/generator-cc
+# ──────────────────────────────────────────────────────────────────────
+- name: ppcd
+  scores:
+    Full Stack Engineer: 0
+    Platform Enginer: 1
+    Systems Engineer: 3
+  skills:
+    - C++
+    - C
+    - PowerPC
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/ppcd
+# ──────────────────────────────────────────────────────────────────────
+- name: helm-traefik
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Helm
+    - Kubernetes
+    - Traefik
+    - Keycloak
+    - ArgoCD
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/helm-traefik
+# ──────────────────────────────────────────────────────────────────────
+- name: helm-argocd
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Helm
+    - Kubernetes
+    - ArgoCD
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/helm-argocd
+# ──────────────────────────────────────────────────────────────────────
+- name: helm-gitea
+  scores:
+    Full Stack Engineer: 2
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Helm
+    - ArgoCD
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/helm-gitea
+# ──────────────────────────────────────────────────────────────────────
+- name: helm-keycloak
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Helm
+    - Kubernetes
+    - Keycloak
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/helm-keycloak
+# ──────────────────────────────────────────────────────────────────────
+- name: helm-postgresql
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Helm
+    - Kubernetes
+    - Postgresql
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/helm-postgresql
+# ──────────────────────────────────────────────────────────────────────
+- name: helm-home-assistant
+  scores:
+    Full Stack Engineer: 2
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Helm
+    - ArgoCD
+    - MQTT
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/helm-home-assistant
+# ──────────────────────────────────────────────────────────────────────
+- name: k3s-ansible
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 3
+    Systems Engineer: 2
+  skills:
+    - Ansible
+    - k3s
+    - Kubernetes
+    - Distributed Systems
+    - Talos Linux
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/k3s-ansible
+# ──────────────────────────────────────────────────────────────────────
+- name: dotbot
+  scores:
+    Full Stack Engineer: 2
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Python
+    - UNIX
+    - Jsonnet
+    - Mise
+    - Shell
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/dotbot
+# ──────────────────────────────────────────────────────────────────────
+- name: drone-semantic-release
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Drone CI
+    - Helm
+    - Git
+    - semantic-release
+    - Pipeline Automation
+    - Release Engineering
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/drone-semantic-release
+# ──────────────────────────────────────────────────────────────────────
+- name: drone-helm-set-version
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Drone CI
+    - Helm
+    - Git
+    - semantic-release
+    - Pipeline Automation
+    - Release Engineering
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/drone-helm-set-version
+# ──────────────────────────────────────────────────────────────────────
+- name: drone-pull-request-size
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Drone CI
+    - Helm
+    - Git
+    - semantic-release
+    - Pipeline Automation
+    - Release Engineering
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/drone-pull-request-size
+# ──────────────────────────────────────────────────────────────────────
+- name: drone-git-tag-signed
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Drone CI
+    - Helm
+    - Git
+    - semantic-release
+    - Pipeline Automation
+    - Release Engineering
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/drone-git-tag-signed
+# ──────────────────────────────────────────────────────────────────────
+- name: docker
+  scores:
+    Full Stack Engineer: 2
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - name: Docker
+    - name: AWS CLI
+    - name: Containerized Tooling
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/docker
+# ──────────────────────────────────────────────────────────────────────
+- name: docker-aws-cli
+  scores:
+    Full Stack Engineer: 2
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Docker
+    - AWS CLI
+    - Containerized Tooling
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/docker-aws-cli
+# ──────────────────────────────────────────────────────────────────────
+- name: docker-psql-backup
+  scores:
+    Full Stack Engineer: 2
+    Platform Enginer: 3
+    Systems Engineer: 1
+  skills:
+    - Docker
+    - Postgres
+    - Backup Automation
+    - Containerized Tooling
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/docker-gcc-base
+# ──────────────────────────────────────────────────────────────────────
+- name: docker-gcc-base
+  scores:
+    Full Stack Engineer: 1
+    Platform Enginer: 3
+    Systems Engineer: 2
+  skills:
+    - Docker
+    - gcc
+    - Containerized Tooling
+  start-date:
+    month: 1
+    year: 2020
+  url: https://github.com/s0cks/docker-gcc-base
