@@ -15,11 +15,13 @@
 #import "components/projects.typ": projects-list
 #import "components/contact.typ": contact-info
 
+#let target-role = get-target-role()
 #set document(
-  title: "Tasman Vose",
+  title: "Tasman Vose Resume",
   author: "Tasman Vose",
   keywords: (
     "Resume",
+    target-role,
   ),
 )
 
@@ -27,7 +29,6 @@
 
 = Tasman Vose
 
-#let target-role = role-full-stack-eng
 #contact-info(..yaml("data/contact.yaml"))
 
 #summary(

@@ -6,8 +6,20 @@
 
 #let default-role = role-full-stack-eng
 
+#let get-target-role(
+  default-role: default-role,
+) = {
+  sys.inputs.at("role", default: default-role)
+}
+
 /* vale off */
-#let is-role(role) = sys.inputs.at("role", default: default-role) == role
+#let is-role(
+  role,
+  default-role: default-role,
+) = {
+  get-target-role(default-role: default-role) == role
+}
+
 #let is-full-stack-eng() = is-role(role-full-stack-eng)
 #let is-systems-eng() = is-role(role-systems-eng)
 #let is-platform-eng() = is-role(role-platform-eng)
