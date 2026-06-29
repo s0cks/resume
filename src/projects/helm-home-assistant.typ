@@ -1,4 +1,4 @@
-#import "../../util.typ": skill
+#import "../util.typ": skill
 #metadata("Helm") <skills>
 #metadata("Home Assistant") <skills>
 #metadata("IoT") <skills>

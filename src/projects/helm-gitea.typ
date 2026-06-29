@@ -1,4 +1,4 @@
-#import "../../util.typ": skill
+#import "../util.typ": skill
 #metadata("Gitea") <skills>
 #metadata("Helm") <skills>
 #metadata("Kubernetes") <skills>

@@ -1,4 +1,4 @@
-#import "colors.typ": *
+#import "./colors.typ": *
 
 #let accent-color = pu
 #let accent-color2 = pu2

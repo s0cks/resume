@@ -98,7 +98,7 @@
   projects,
 ) = {
   let ranked = rank-projects(role, projects)
-  let get-project-description(name) = include "../data/projects/" + lower(name) + ".typ"
+  let get-project-description(name) = include "/src/projects/" + lower(name) + ".typ"
   projects-section(
     title: title,
   )[

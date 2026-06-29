@@ -1,4 +1,4 @@
-#import "../../util.typ": skill
+#import "../util.typ": skill
 #metadata("Typst") <skills>
 #metadata("CI/CD") <skills>
 #metadata("GitHub Actions") <skills>

@@ -1,4 +1,4 @@
-#import "../../util.typ": skill
+#import "../util.typ": skill
 #metadata("Scala") <skills>
 #metadata("Java") <skills>
 #metadata("Guice") <skills>

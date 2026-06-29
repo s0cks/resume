@@ -1,4 +1,4 @@
-#import "../../util.typ": skill
+#import "../util.typ": skill
 #metadata("C++") <skills>
 #metadata("LLVM") <skills>
 #metadata("CMake") <skills>

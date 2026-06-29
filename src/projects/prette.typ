@@ -1,4 +1,4 @@
-#import "../../util.typ": skill
+#import "../util.typ": skill
 #metadata("3D") <skills>
 #metadata("C++") <skills>
 #metadata("Lua") <skills>

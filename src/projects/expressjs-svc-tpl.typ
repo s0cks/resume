@@ -1,4 +1,4 @@
-#import "../../util.typ": skill
+#import "../util.typ": skill
 #metadata("Nodejs") <skills>
 #metadata("Javascript") <skills>
 #metadata("Expressjs") <skills>

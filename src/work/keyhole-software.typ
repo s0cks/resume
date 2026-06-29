@@ -1,6 +1,6 @@
 #import "@preview/abbr:0.3.1"
-#import "../../components/work.typ": work
-#import "../../util.typ": skill
+#import "./work.typ": work
+#import "../util.typ": skill
 
 #metadata("MySQL")<skills>
 #metadata("Stored Procedures")<skills>

@@ -1,4 +1,4 @@
-#import "../util.typ": dates, metadata, section
+#import "./util.typ": *
 
 #let education(
   degree: none,

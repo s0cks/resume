@@ -1,4 +1,5 @@
-#import "../../components/work.typ": work
+#import "./work.typ": work
+#import "../util.typ": skill
 #metadata("S3") <skills>
 #metadata("C++") <skills>
 #metadata("Spring Boot")  <skills>

@@ -1,4 +1,4 @@
-#import "../../util.typ": skill
+#import "../util.typ": skill
 #metadata("Docker") <skills>
 #metadata("Kubernetes") <skills>
 #metadata("Traefik") <skills>

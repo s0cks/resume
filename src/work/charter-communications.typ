@@ -1,5 +1,5 @@
-#import "../../components/work.typ": work
-#import "../../util.typ": skill
+#import "./work.typ": work
+#import "../util.typ": skill
 #metadata("Logstash") <skills>
 #metadata("Kibana") <skills>
 #metadata("Data Engineering") <skills>

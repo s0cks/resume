@@ -1,4 +1,4 @@
-#import "../util.typ": *
+#import "./util.typ": *
 
 #let award(
   date: none,

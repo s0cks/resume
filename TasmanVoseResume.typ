@@ -1,19 +1,19 @@
 #import "@preview/abbr:0.3.1"
-#import "style.typ": accent-color, default-font, default-font-size
-#import "colors.typ": paper, tx, tx2
-#import "util.typ": *
+#import "src/style.typ": accent-color, default-font, default-font-size
+#import "src/colors.typ": paper, tx, tx2
+#import "src/util.typ": *
 
-#abbr.load("data/abbrs.csv")
+#abbr.load("src/abbrs.csv")
 #show: abbr.show-rule
 
-#import "components/summary.typ": summary
-#import "components/skills.typ": skills-matrix
-#import "components/education.typ": education-list
-#import "components/awards.typ": award-list
-#import "components/certifications.typ": cert-list
-#import "components/work.typ": work-list
-#import "components/projects.typ": projects-list
-#import "components/contact.typ": contact-info
+#import "src/summary.typ": summary
+#import "src/skills.typ": skills-matrix
+#import "src/education.typ": education-list
+#import "src/awards.typ": award-list
+#import "src/certifications.typ": cert-list
+#import "src/work/work.typ": work-list
+#import "src/projects/projects.typ": projects-list
+#import "src/contact.typ": contact-info
 
 #let target-role = get-target-role()
 #set document(
@@ -29,27 +29,27 @@
 
 = Tasman Vose
 
-#contact-info(..yaml("data/contact.yaml"))
+#contact-info(..yaml("src/contact.yaml"))
 
 #summary(
-  include "data/summaries/" + target-role + ".typ",
+  include "src/summaries/" + target-role + ".typ",
 )
 
 #skills-matrix(
   role: target-role,
-  yaml("data/skills.yaml"),
+  yaml("src/skills.yaml"),
 )
 
-#let projects = yaml("data/projects.yaml")
+#let projects = yaml("src/projects/projects.yaml")
 #let max-num-projects = 4
 #let max-num-certifications = 5
 #if is-full-stack-eng() {
   work-list(
     role: target-role,
   )[
-    #include "data/work/keyhole-software.typ"
-    #include "data/work/charter-communications.typ"
-    #include "data/work/great-west-financial.typ"
+    #include "src/work/keyhole-software.typ"
+    #include "src/work/charter-communications.typ"
+    #include "src/work/great-west-financial.typ"
   ]
 
   projects-list(
@@ -67,26 +67,26 @@
   work-list(
     role: target-role,
   )[
-    #include "data/work/keyhole-software.typ"
-    #include "data/work/charter-communications.typ"
-    #include "data/work/great-west-financial.typ"
+    #include "src/work/keyhole-software.typ"
+    #include "src/work/charter-communications.typ"
+    #include "src/work/great-west-financial.typ"
   ]
 }
 
 #cert-list(
   role: target-role,
   max-items: max-num-certifications,
-  yaml("data/certifications.yaml"),
+  yaml("src/certifications.yaml"),
 )
 
 #award-list(
   role: target-role,
-  yaml("data/awards.yaml"),
+  yaml("src/awards.yaml"),
 )
 
 #education-list(
   role: target-role,
-  yaml("data/education.yaml"),
+  yaml("src/education.yaml"),
 )
 
 #section(

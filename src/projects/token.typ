@@ -1,4 +1,4 @@
-#import "../../util.typ": skill
+#import "../util.typ": skill
 #metadata("libuv") <skills>
 #metadata("C++") <skills>
 #metadata("RAFT Algorithm") <skills>

@@ -1,4 +1,4 @@
-#import "../util.typ": section
+#import "./util.typ": *
 
 #let default-summary-title = "Summary"
 
