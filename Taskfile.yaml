@@ -1,11 +1,50 @@
 version: "3"
+vars:
+  VERSION: '{{.VERSION | default "latest" }}'
+  TYPST_SOURCE_FILE: "TasmanVoseResume.typ"
+  TARGET_ROLES: "Full Stack Engineer,Platform Engineer,Systems Engineer"
+  COLOR_SCHEMES: "light,dark"
+  DEFAULT_COLOR_SCHEME: light
 tasks:
+  compile:
+    internal: true
+    cmds:
+      - |
+        typst compile {{.TYPST_SOURCE_FILE}} out/{{.TYPST_OUT_FILE}} \
+          --input version="{{.VERSION}}" \
+          --input role="{{.ROLE}}" \
+          --input color-scheme="{{.COLOR_SCHEME}}"
+    sources:
+      - "src/"
+      - "{{.TYPST_SOURCE_FILE}}"
+    generates:
+      - "{{.TYPST_OUT_FILE}}"
+  compile-role:
+    internal: true
+    cmds:
+      - for: {var: COLOR_SCHEMES, split: ","}
+        task: compile
+        vars:
+          ROLE: "{{.ROLE}}"
+          COLOR_SCHEME: "{{.ITEM}}"
+          TYPST_OUT_FILE: TasmanVoseResume-{{.ROLE | replace " " "-" }}-{{.ITEM}}-{{.VERSION}}.pdf
+      - task: compile
+        vars:
+          ROLE: "{{.ROLE}}"
+          COLOR_SCHEME: "{{.DEFAULT_COLOR_SCHEME}}"
+          TYPST_OUT_FILE: TasmanVoseResume-{{.ROLE | replace " " "-"}}-{{.VERSION}}.pdf
+  compile-all:
+    cmds:
+      - for: {var: TARGET_ROLES, split: ","}
+        task: compile-role
+        vars:
+          ROLE: "{{.ITEM}}"
   build:
     cmds:
-      - typst compile TasmanVoseResume.typ TasmanVoseResume.pdf
+      - task: compile-all
   clean:
     cmds:
       - rm *.pdf
   default:
     cmds:
-      - task: build
+      - task: compile-all
